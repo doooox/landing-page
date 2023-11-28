@@ -1,0 +1,26 @@
+.btn{
+    border-radius: 12px;
+    text-decoration: none;
+    color: $defaultBlack;
+}
+
+.btn--white{
+    display: inline-flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border: 0.5px solid var(--accent-black-600, #CECED2);
+    text-transform: uppercase;
+}
+
+.btn--green{
+    display: inline-flex;
+    padding: 17px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 24px;
+    background: var(--accent-turq-100, #71FFD1);
+    margin-top: 3.2rem;
+}
