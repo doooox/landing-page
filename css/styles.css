@@ -15,6 +15,116 @@
   letter-spacing: -0.48px;
 }
 
+.img-background {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: -1.5rem;
+  left: -1.7rem;
+}
+
+.img-background-2 {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: -1.5rem;
+  left: 3.26rem;
+}
+
+.img-background-3 {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: -1.5rem;
+  left: 8.4rem;
+}
+
+.img-background-4 {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: -1.5rem;
+  left: 13.8rem;
+}
+
+.img-background-5 {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: 5rem;
+  left: 3.26rem;
+}
+
+.img-background-6 {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: 5rem;
+  left: 8.26rem;
+}
+
+.img-background-7 {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: 5rem;
+  left: 13.8rem;
+}
+
+.img-background-8 {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: 6rem;
+  left: -15.5rem;
+}
+
+.img-background-9 {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: 6rem;
+  left: -10.5rem;
+}
+
+.img-background-10 {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: 6rem;
+  left: -5.3rem;
+}
+
+.img-background-11 {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: absolute;
+  top: 6rem;
+  left: 0;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -24,12 +134,14 @@
 html {
   font-size: 62.5%;
   background: linear-gradient(top to bottom #fff, #F2F2F2);
-  overflow-x: hidden;
 }
 
 body {
   font-family: "Montserrat";
-  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
 }
 
 .btn {
@@ -88,6 +200,51 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 14.723px; /* 166.667% */
+}
+
+.card-big {
+  width: 300px;
+  height: 286px;
+  border-radius: 8px;
+  border: 1px solid #DADADA;
+  background: #FFF;
+}
+
+.card-body {
+  display: flex;
+  width: 268px;
+  padding: 15.981px 15.981px 21.308px 21.308px;
+  margin: 34px 16px 34px 16px;
+}
+.card-body-content {
+  margin-left: 15px;
+  align-items: flex-start;
+}
+.card-body-heading {
+  color: #202223;
+  font-size: 11.986px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15.981px;
+}
+.card-body-text {
+  text-align: justify;
+  font-size: 7.99px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.317px;
+}
+.card-body-list {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.card-body-list li {
+  font-size: 7.99px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.317px; /* 166.667% */
 }
 
 .site__header {
@@ -205,17 +362,145 @@ body {
 }
 .section__one--main-icons {
   position: absolute;
-  top: 47.4rem;
-  left: 28rem;
+  top: 50%;
+  left: 50%;
   z-index: -1;
+}
+.section__one--main-icon-1 {
+  width: 15px;
+  height: 20px;
+  background: url("../assets/images/Icons/sql.png");
+  background-size: contain;
+  position: absolute;
+  top: 1rem;
+  left: 1.2rem;
+}
+.section__one--main-icon-2 {
+  width: 24.375px;
+  height: 24.375px;
+  background: url("../assets/images/Icons/cloud.png");
+  background-size: contain;
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+}
+.section__one--main-icon-3 {
+  width: 24.375px;
+  height: 24.375px;
+  background: url("../assets/images/Icons/lines.png");
+  background-size: contain;
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+}
+.section__one--main-icon-4 {
+  width: 21.25px;
+  height: 21.25px;
+  background: url("../assets/images/Icons/twitter.png");
+  background-size: contain;
+  position: absolute;
+  top: 0.9rem;
+  left: 0.9rem;
+}
+.section__one--main-icon-5 {
+  width: 21.25px;
+  height: 21.25px;
+  background: url("../assets/images/Icons/g1.png");
+  background-size: contain;
+  position: absolute;
+  top: 0.9rem;
+  left: 0.9rem;
+}
+.section__one--main-icon-6 {
+  width: 24px;
+  height: 22px;
+  background: url("../assets/images/Icons/segment.png");
+  background-size: contain;
+  position: absolute;
+  top: 0.9rem;
+  left: 0.8rem;
+}
+.section__one--main-icon-7 {
+  width: 26px;
+  height: 24px;
+  background: url("../assets/images/Icons/screenshot.png");
+  background-size: contain;
+  position: absolute;
+  top: 0.7rem;
+  left: 0.8rem;
+}
+.section__one--main-icon-8 {
+  width: 23px;
+  height: 27px;
+  background: url("../assets/images/Icons/b.png");
+  background-size: contain;
+  position: absolute;
+  top: 0.7rem;
+  left: 0.8rem;
+}
+.section__one--main-icon-9 {
+  width: 24px;
+  height: 23px;
+  background: url("../assets/images/Icons/z.png");
+  background-size: contain;
+  position: absolute;
+  top: 0.7rem;
+  left: 0.8rem;
+}
+.section__one--main-icon-10 {
+  width: 24px;
+  height: 23px;
+  background: url("../assets/images/Icons/linkedin.png");
+  background-size: contain;
+  position: absolute;
+  top: 0.7rem;
+  left: 0.8rem;
+}
+.section__one--main-icon-11 {
+  width: 22px;
+  height: 23px;
+  background: url("../assets/images/Icons/s.png");
+  background-size: contain;
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
 }
 .section__one--main-logo {
   position: absolute;
-  top: 48.5rem;
-  left: 68rem;
-  z-index: 1;
-  box-shadow: 0 0 10rem rgba(113, 255, 210, 0.594);
-  border-radius: 50%;
+  top: 1.5rem;
+  left: 40.5rem;
+}
+.section__one--main-logo-to-card {
+  position: absolute;
+  width: 223.5px;
+  height: 17px;
+  flex-shrink: 0;
+  top: 4.6rem;
+  left: 11rem;
+  background: url("../assets/images/Vector 108 (Stroke).png");
+}
+.section__one--main-card {
+  position: absolute;
+  top: -5rem;
+  left: 73rem;
+}
+.section__one--main-card-heading {
+  height: 48px;
+  background-color: #E8E8E8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.6rem;
+}
+.section__one--main-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.section__one--main-card-body-heading {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

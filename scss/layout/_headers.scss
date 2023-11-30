@@ -120,18 +120,153 @@
 
         &-icons{
             position: absolute;
-            top: 47.4rem;
-            left: 28rem;
+            top: 50%;
+            left: 50%;
             z-index: -1;
         }
 
+
+        
+        &-icon-1{
+                width: 15px;
+                height: 20px;
+                background: url("../assets/images/Icons/sql.png");
+                background-size: contain;
+                position: absolute;
+                top:1rem;
+                left:1.2rem;
+        }
+
+        &-icon-2{
+            width: 24.375px;
+            height: 24.375px;
+            background: url("../assets/images/Icons/cloud.png");
+            background-size: contain;
+            position: absolute;
+            top:0.8rem;
+            left: 0.8rem;
+        }
+
+        &-icon-3{
+            width: 24.375px;
+            height: 24.375px;
+            background: url("../assets/images/Icons/lines.png");
+            background-size: contain;
+            position: absolute;
+            top:0.8rem;
+            left: 0.8rem;
+        }
+        &-icon-4{
+            width: 21.25px;
+            height: 21.25px;
+            background: url("../assets/images/Icons/twitter.png");
+            background-size: contain;
+            position: absolute;
+            top:0.9rem;
+            left: 0.9rem;
+        }
+        &-icon-5{
+            width: 21.25px;
+            height: 21.25px;
+            background: url("../assets/images/Icons/g1.png");
+            background-size: contain;
+            position: absolute;
+            top:0.9rem;
+            left: 0.9rem;
+        }
+        &-icon-6{
+            width: 24px;
+            height: 22px;   
+            background: url("../assets/images/Icons/segment.png");
+            background-size: contain;
+            position: absolute;
+            top:0.9rem;
+            left: 0.8rem;
+        }
+
+        &-icon-7{
+            width: 26px;
+            height: 24px;   
+            background: url("../assets/images/Icons/screenshot.png");
+            background-size: contain;
+            position: absolute;
+            top:0.7rem;
+            left: 0.8rem;
+        }
+        &-icon-8{
+            width: 23px;
+            height: 27px;   
+            background: url("../assets/images/Icons/b.png");
+            background-size: contain;
+            position: absolute;
+            top:0.7rem;
+            left: 0.8rem;
+        }
+        &-icon-9{
+            width: 24px;
+            height: 23px;
+            background: url("../assets/images/Icons/z.png");
+            background-size: contain;
+            position: absolute;
+            top:0.7rem;
+            left: 0.8rem;
+        }
+        &-icon-10{
+            width: 24px;
+            height: 23px;
+            background: url("../assets/images/Icons/linkedin.png");
+            background-size: contain;
+            position: absolute;
+            top:0.7rem;
+            left: 0.8rem;
+        }
+        &-icon-11{
+            width: 22px;
+            height: 23px;
+            background: url("../assets/images/Icons/s.png");
+            background-size: contain;
+            position: absolute;
+            top:0.8rem;
+            left: 0.8rem;
+        }
+        
         &-logo{
             position: absolute;
-            top: 48.5rem;
-            left: 68rem;
-            z-index: 1;
-            box-shadow: 0 0 10rem rgba(113, 255, 210, 0.594);
-            border-radius: 50%;
+            top: 1.5rem;
+            left: 40.5rem;
+        }
+        &-logo-to-card{
+            position: absolute;
+            width: 223.5px;
+            height: 17px;
+            flex-shrink: 0;
+            top: 4.6rem;
+            left: 11rem;
+            background: url("../assets/images/Vector\ 108\ \(Stroke\).png");
+        }
+        &-card{
+            position: absolute;
+            top: -5rem;
+            left: 73rem;
+            &-heading{
+                height: 48px;
+                background-color:  #E8E8E8;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 1.6rem;
+            }
+          
+            &-body{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                &-heading{
+                    width: 100%;
+                }
+            }
         }
     }
 }
